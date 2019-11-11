@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import Home from './pages/home'
@@ -11,7 +11,7 @@ import './styles.css'
 const routes = [
   { path: '/', name: 'Home', Component: Home },
   { path: '/about', name: 'About', Component: About },
-  { path: '/contact', name: 'Contact', Component: Contact },
+  { path: '/contact', name: 'Contact', Component: Contact }
 ]
 
 function Example() {
